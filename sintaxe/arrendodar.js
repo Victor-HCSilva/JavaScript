@@ -12,12 +12,13 @@ console.log(Math.floor(num))
 //parecido com o floor
 console.log(Math.round(num))
 
-//Exemplo moeda | API de formatação de moeda
+//Exemplo moeda | API de formatação de moeda (padrão do JavaScript)
 console.log(new Intl.NumberFormat("pt-BR",
     {
         style:"currency",
         currency:"BRL"
-    }).format(num)
+    }
+    ).format(num)
 );
 
 
